@@ -10,6 +10,7 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
+    background-color: bisque;
 }
 
 header {
@@ -36,4 +37,26 @@ main {
 
 #image {
     max-width: 100px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.location {
+    font-family: 'Sevillana', cursive;
+    font-size: 2em;
+    margin: 5px;
+}
+
+#hobbies {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.25em;
+    margin: 10px;
+}
+
+li {
+    font-family: 'Oswald', sans-serif;
 }
